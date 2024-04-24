@@ -1,18 +1,12 @@
 "use strict";
-function calculaArea(base, altura) {
-    return base * altura;
+// multiplicação
+function multiplicar(numero1, numero2) {
+    return numero1 * numero2;
 }
-const calculaArea2 = (base, altura) => base * altura;
-function somar(...numeros) {
-    // numeros.reduce()
-    console.log(numeros);
+const multiplicarArrow = (numero1, numero2) => numero1 * numero2;
+//saudação
+function saudacao(nome) {
+    return "Olá" + nome;
 }
-function teste() {
-    if (10 > 5) {
-        return 'dez maior que cinco';
-    }
-    else {
-        return 5;
-    }
-}
-const resultadoDeTeste = teste();
+const saudacaoParaMarcela = saudacao('Marcela');
+console.log(saudacaoParaMarcela);
